@@ -1,0 +1,298 @@
+* {
+  font-family: Lato;
+  font-size: 16px;
+}
+
+.body {
+  background-color: #f3f5f7;
+}
+
+.eventJourneyContainer .widget-header {
+  background-color: #06141C;
+}
+
+.eventJourneyContainer .widget-header .header-content .success-title {
+  color: #EBE7D9;
+}
+
+.eventJourneyContainer .widget-header .header-content .header-title{
+  color: #EBE7D9;
+}
+
+.eventJourneyContainer .widget-header .line {
+  border: 1px solid #F55139;
+  opacity: 1;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-header {
+  color: #fff;
+}
+
+.eventJourneyContainer .widget-header .booking-reference .reference-number {
+  color: #F55139;
+}
+
+.eventJourneyContainer .summary-header {
+  background-color: #DDE1E8;
+}
+
+.eventJourneyContainer .summary-header .summary-header-title {
+  color: #06141C;
+}
+
+#runningTotal div {
+  color: #fff;
+}
+
+.confirm {
+  background-color: #2F4476;
+}
+
+.confirm .no-total {
+  background-color: #fff;
+}
+
+#selected-text {
+  background: #06141C;
+}
+
+#selected-text p {
+  color: #fff;
+}
+
+#price-text {
+  background-color: rgba(26, 50, 105, 0.1);
+}
+
+#price-text p {
+  color: #06141C;
+}
+
+.cost-footer.card-footer .cost-text {
+  color: #06141C;
+}
+
+.cost-footer.card-footer .cost-total {
+  color: #06141C;
+}
+
+.card-list.selected .card-title {
+  color: #06141C;
+}
+
+.footer {
+  background-color: #06141C;
+  border-top: 1px solid #06141C;
+}
+
+.footer .paragraph {
+  color: #fff;
+}
+
+.footer .header{
+  color: #fff;
+}
+
+.btn-primary {
+  background-color: #F55139;
+  border-color: #F55139;
+}
+
+.btn-primary:hover {
+  background-color: #E92A0C;
+  border-color: #E92A0C;
+}
+
+.btn-primary:focus {
+  background-color: #E92A0C;
+  border-color: #E92A0C;
+}
+
+.btn-primary[disabled] {
+  background-color: #E9B556;
+  border-color: #E9B556;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  background-color: #E92A0C;
+  border-color: #E92A0C;
+}
+
+.btn-secondary {
+  background-color: #f3f4f7;
+  color: #FFFFFF;
+  border-color: #dde0e8;
+}
+
+.authenticate-login-button.form-button.btn.btn-secondary {
+    color: FFFFFF;
+}
+
+.btn-secondary:hover {
+  background-color: #d4d8e3;
+  border-color: #dde0e8;
+  color: #06141C;
+}
+
+.btn-secondary[disabled] {
+  background-color: #fff;
+  border-color: #dde0e8;
+  color: #06141C;
+  cursor: not-allowed;
+}
+
+.selection-container .input-card-radio {
+  color: #06141C;
+}
+
+.selection-container .input-card-radio:checked::before {
+  color: #06141C;
+}
+
+.selection-container .input-card-checkbox {
+  color: #06141C;
+}
+
+.consent-checkbox {
+  color: #06141C;
+}
+
+.selected {
+  background: #fff;
+  border: 1px solid #06141C;
+}
+
+.selected #price-text {
+  background: #06141C;
+}
+
+.selected #price-text p {
+  color: #fff;
+}
+
+.loading-spinner div {
+  border: 6px solid #06141C;
+  border-color: #06141C transparent transparent transparent;
+}
+
+.loading-spinner-mini div {
+  border: 3px solid #06141C;
+  border-color: #06141C transparent transparent transparent;
+}
+
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:focus
+ {
+  background-color: #06141C;
+}
+
+.remove-style:hover {
+  background-color: #fff;
+  cursor: auto;
+}
+
+.cover-picker input {
+  color: #06141C;
+}
+
+.consent-text .consent-url:hover, .consent-text .consent-url:focus {
+  color: #2275d7;
+}
+
+.dateSelection .DayPicker-Caption {
+  text-align: center;
+  color: #06141C;
+}
+
+.dateSelection .DayPicker-Day--selected:not(.DayPicker-Day--disabled):not(.DayPicker-Day--outside) {
+  background-color: #06141C;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active,
+.btn-outline-primary:not(:disabled):not(.disabled).active,
+.show > .btn-outline-primary.dropdown-toggle{
+  background-color: #06141C;
+  border-color: #06141C;
+}
+
+.dateSelection .btn-outline-primary {
+  border-color: #b3b3b3;
+  color: #06141C;
+}
+
+.dateSelection .btn-outline-primary:hover {
+  background-color: #DDE1E8;
+  color: #06141C;
+}
+
+.dateSelection .btn-outline-primary:active {
+  background-color: #06141C;
+  color: #fff;
+  border-color: #06141C;
+}
+
+.dateSelection .btn-outline-primary:not(:disabled):not(.disabled).active {
+  background-color: #06141C;
+  color: #fff;
+  border-color: #06141C;
+}
+
+.nav-tab .nav-link.active::after {
+  border-bottom: 5px solid #06141C;
+}
+
+.nav-tab .nav-link:hover {
+  color: #495057;
+}
+
+.nav-tab .nav-link:hover::after {
+  border-bottom: 5px solid #06141C;
+}
+
+.timeslotSelection .timeslotDayCard .timeslots .btn-outline-dark:hover {
+  color: #06141C;
+  background-color: #DDE1E8;
+}
+
+.timeslotSelection .timeslotDayCard .timeslots .btn-outline-dark:active {
+  color: #fff;
+  background-color: #06141C;
+}
+
+.timeslotSelection .timeslotDayCard .timeslots .btn-outline-primary {
+  border: 1px solid #06141C;
+  color: #1d3164;
+}
+
+.timeslotSelection .timeslotDayCard .timeslots .btn-outline-primary:hover {
+  color: #fff;
+  background-color: #06141C;
+}
+
+.timeslotSelection .timeslotDayCard .timeslots .btn-primary {
+  border: 1px solid #06141C;
+  color: #1d3164;
+}
+
+.dateSelection .timePickerColumn .time-select-container .time-select__option--is-focused:not(.time-select__option--is-selected){
+  background-color: #f8f9fa;
+}
+
+.dateSelection .timePickerColumn .time-select-container .time-select__option--is-selected{
+      background: #06141C;
+}
+
+.eventJourneyContainer .summary-header .summary-header-icon {
+  color: #F55139;
+}
+
+.summary-icon{
+  color: #F55139;
+}
+
+.personalisationEnquiryHeader > a {
+  color: #F55139;
+}
